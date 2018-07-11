@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
     class RecyclerViewAdapter(var dummyDataList: List<DummyData>) : RecyclerView.Adapter<ViewHolder>() {
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-            val view = LayoutInflater.from(parent.context).inflate(R.layout.sample_rview_layout, parent, false)
+            val view = LayoutInflater.from(parent.context).inflate(R.layout.recycler_view_row, parent, false)
             return ViewHolder(view)
         }
 
